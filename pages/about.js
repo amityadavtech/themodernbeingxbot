@@ -1,21 +1,17 @@
 import SEO from "@/components/SEO";
 import Navbar from "@/components/Navbar";
-import HeroSection from "@/components/Home/HeroSection";
-import AboutSection from "@/components/Home/AboutSection";
-import WorkflowSection from "@/components/Home/WorkflowSection";
-import PlanSection from "@/components/Home/PlanSection";
-import AskQuestion from "@/components/Home/AskQuestion";
 import Footer from "@/components/Footer";
+import NewAboutUs from "@/components/About-us/NewAbout";
 
-export default function Home() {
+export default function About() {
   const seoData = {
-    title: "BeingxBot | Modern Web Development & SEO Agency",
+    title: "About BeingxBot | Leading Web Development & Digital Marketing Agency",
     description:
-      "Boost your business with BeingxBot — experts in web development, SEO optimization, responsive design, and digital marketing. Launch fast. Grow smart.",
+      "Learn about BeingxBot — India’s modern web development and digital marketing agency. We specialize in building fast, secure websites, boosting Google rankings with SEO, and growing your brand through data-driven marketing strategies.",
     keywords:
-      "Web development agency, SEO company, digital marketing, mobile-first design, React websites, Next.js SEO, performance optimization, BeingxBot, website services India",
+      "BeingxBot, web development agency India, SEO company, digital marketing experts, responsive website design, custom websites, Next.js development, Google SEO, online business growth, marketing agency",
     image: "/images/beingxbot-banner.png",
-    url: "https://beingxbot.tech",
+    url: "https://beingxbot.tech/about",
   };
 
   const structuredData = {
@@ -58,13 +54,7 @@ export default function Home() {
 
       <div className="bg-black min-h-screen">
         <Navbar />
-        <main>
-          <HeroSection />
-          <AboutSection />
-          <WorkflowSection />
-          <PlanSection />
-          <AskQuestion />
-        </main>
+        <NewAboutUs />
         <Footer />
       </div>
     </>

@@ -1,21 +1,18 @@
-import SEO from "@/components/SEO";
 import Navbar from "@/components/Navbar";
-import HeroSection from "@/components/Home/HeroSection";
-import AboutSection from "@/components/Home/AboutSection";
-import WorkflowSection from "@/components/Home/WorkflowSection";
-import PlanSection from "@/components/Home/PlanSection";
-import AskQuestion from "@/components/Home/AskQuestion";
 import Footer from "@/components/Footer";
+import SEO from "@/components/SEO";
+import Plans from "@/components/Plansnservices/Plans";
+import Services from "@/components/Plansnservices/Services";
 
-export default function Home() {
+export default function PlansAndServices() {
   const seoData = {
-    title: "BeingxBot | Modern Web Development & SEO Agency",
+    title: "Plans & Services | BeingxBot Web Development & SEO Experts",
     description:
-      "Boost your business with BeingxBot — experts in web development, SEO optimization, responsive design, and digital marketing. Launch fast. Grow smart.",
+      "Explore custom plans and digital services by BeingxBot including website development, SEO, digital marketing, app design, and UI/UX solutions tailored for your business growth.",
     keywords:
-      "Web development agency, SEO company, digital marketing, mobile-first design, React websites, Next.js SEO, performance optimization, BeingxBot, website services India",
-    image: "/images/beingxbot-banner.png",
-    url: "https://beingxbot.tech",
+      "BeingxBot plans, web development packages, SEO plans, digital marketing services, app development, UI/UX design, affordable website plans, professional web agency",
+    image: "/images/beingxbot-banner.jpg",
+    url: "https://beingxbot.tech/plans&services",
   };
 
   const structuredData = {
@@ -58,13 +55,8 @@ export default function Home() {
 
       <div className="bg-black min-h-screen">
         <Navbar />
-        <main>
-          <HeroSection />
-          <AboutSection />
-          <WorkflowSection />
-          <PlanSection />
-          <AskQuestion />
-        </main>
+        <Services />
+        <Plans />
         <Footer />
       </div>
     </>
