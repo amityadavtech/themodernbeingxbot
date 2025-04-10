@@ -2,7 +2,7 @@ import "@/styles/globals.css";
 import { SessionProvider } from "next-auth/react";
 import FloatingBackToTop from "@/components/FloatingBackToTop";
 import FloatingWhatsApp from "@/components/FloatingWhatsApp";
-import { Analytics } from "@vercel/analytics/react"; // ✅ Import Vercel Analytics
+import { Analytics } from "@vercel/analytics/react"; 
 
 export default function App({ Component, pageProps: { session, ...pageProps } }) {
   return (
@@ -11,7 +11,7 @@ export default function App({ Component, pageProps: { session, ...pageProps } })
         <Component {...pageProps} />
         <FloatingBackToTop />
         <FloatingWhatsApp />
-        <Analytics /> {/* ✅ Add this at the bottom inside return */}
+        <Analytics /> 
       </>
     </SessionProvider>
   );
