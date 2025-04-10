@@ -80,7 +80,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" aria-label="BeingxBot Homepage">
           <h2 id="navbar-logo" className="text-2xl font-extrabold ">
-            Being<span className="text-[#633BFF]">x</span>Bot
+            Beiing<span className="text-[#633BFF]">x</span>Bot
           </h2>
         </Link>
 
