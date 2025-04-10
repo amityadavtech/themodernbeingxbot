@@ -42,14 +42,14 @@ export default function ContactSection() {
         viewport={{ once: false, amount: 0.2 }}
       >
         <motion.h1
-          className="text-4xl md:text-5xl font-extrabold text-[#663BFF] mb-4"
+          className="text-4xl md:text-5xl font-extrabold text-[var(--primary-color)] mb-4"
           variants={itemVariants}
         >
           Get in Touch
         </motion.h1>
 
         <motion.div
-          className="w-24 h-1 bg-[#663BFF] mx-auto rounded-full mb-6"
+          className="w-24 h-1 bg-[var(--primary-color)] mx-auto rounded-full mb-6"
           variants={itemVariants}
         />
 
@@ -68,7 +68,7 @@ export default function ContactSection() {
             <span className="font-semibold text-gray-800">📧 Email: </span>
             <a
               href="mailto:beingxbot@gmail.com"
-              className="text-[#663BFF] hover:underline block md:inline"
+              className="text-[var(--primary-color)] hover:underline block md:inline"
               title="Email BeingxBot"
             >
               beingxbot@gmail.com
@@ -78,7 +78,7 @@ export default function ContactSection() {
             <span className="font-semibold text-gray-800">📞 Phone 1: </span>
             <a
               href="tel:+917079490430"
-              className="text-[#663BFF] hover:underline"
+              className="text-[var(--primary-color)] hover:underline"
               title="Call BeingxBot"
             >
               +91 7079490430
@@ -88,7 +88,7 @@ export default function ContactSection() {
             <span className="font-semibold text-gray-800">📞 Phone 2: </span>
             <a
               href="tel:+918340634394"
-              className="text-[#663BFF] hover:underline"
+              className="text-[var(--primary-color)] hover:underline"
               title="Call BeingxBot"
             >
               +91 8340634394
@@ -100,7 +100,7 @@ export default function ContactSection() {
           <Link
             href="/contact"
             title="Go to Contact Page"
-            className="bg-gradient-to-r from-[#663BFF] to-indigo-500 hover:from-indigo-500 hover:to-[#663BFF] text-white font-semibold py-3 px-10 rounded-full shadow-lg transition-all duration-300 hover:shadow-[0_0_15px_#663BFF]"
+            className="bg-gradient-to-r from-[var(--primary-color)] to-indigo-500 hover:from-indigo-500 hover:to-[var(--primary-color)] text-white font-semibold py-3 px-10 rounded-full shadow-lg transition-all duration-300 hover:shadow-[0_0_15px_var(--primary-color)]"
           >
             Contact Us
           </Link>

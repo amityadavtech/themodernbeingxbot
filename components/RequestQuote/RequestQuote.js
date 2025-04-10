@@ -157,7 +157,7 @@ const RequestQuoteForm = () => {
             >
                 <motion.div variants={fieldVariants} custom={0} className="text-center">
                     <h1 className="text-4xl md:text-5xl font-extrabold text-white mb-4">
-                        Request a <span className="text-[#663BFF]">Quote</span>
+                        Request a <span className="text-[var(--primary-color)]">Quote</span>
                     </h1>
                     <p className="text-gray-400 text-lg">Tell us about your project – we’ll get back with a plan!</p>
                 </motion.div>
@@ -169,10 +169,10 @@ const RequestQuoteForm = () => {
                     <input type="text" name="honeypot" value={formData.honeypot} onChange={handleChange} className="hidden" />
 
                     {[
-                        { icon: <User size={18} color="#633BFF" />, name: "Name", required: true },
-                        { icon: <Mail size={18} color="#633BFF" />, name: "Email", type: "email", required: true },
-                        { icon: <Phone size={18} color="#633BFF" />, name: "Number", label: "Phone Number (Optional)", type: "tel" },
-                        { icon: <Building2 size={18} color="#633BFF" />, name: "Company", required: true },
+                        { icon: <User size={18} color="var(--primary-color)" />, name: "Name", required: true },
+                        { icon: <Mail size={18} color="var(--primary-color)" />, name: "Email", type: "email", required: true },
+                        { icon: <Phone size={18} color="var(--primary-color)" />, name: "Number", label: "Phone Number (Optional)", type: "tel" },
+                        { icon: <Building2 size={18} color="var(--primary-color)" />, name: "Company", required: true },
                     ].map((field, i) => (
                         <motion.div key={field.name} variants={fieldVariants} custom={i}>
                             <InputField {...field} value={formData[field.name]} onChange={handleChange} />
@@ -180,9 +180,9 @@ const RequestQuoteForm = () => {
                     ))}
 
                     {[
-                        { icon: <LayoutTemplate size={18} color="#633BFF" />, name: "ProjectType", required: true, options: ["Website", "App", "SEO", "Branding", "UI/UX Design", "Other"] },
-                        {icon: <DollarSign size={18} color="#633BFF" />, name: "Budget",required: true, options: ["<$149.99", "$149.99 - $599.99", "$599.99 - $999.99", "$999.99+"]},
-                        { icon: <Clock size={18} color="#633BFF" />, name: "Timeline", required: true, options: ["1-2 Weeks", "1 Month", "2 Months", "Flexible"] },
+                        { icon: <LayoutTemplate size={18} color="var(--primary-color)" />, name: "ProjectType", required: true, options: ["Website", "App", "SEO", "Branding", "UI/UX Design", "Other"] },
+                        {icon: <DollarSign size={18} color="var(--primary-color)" />, name: "Budget",required: true, options: ["<$149.99", "$149.99 - $599.99", "$599.99 - $999.99", "$999.99+"]},
+                        { icon: <Clock size={18} color="var(--primary-color)" />, name: "Timeline", required: true, options: ["1-2 Weeks", "1 Month", "2 Months", "Flexible"] },
                     ].map((field, i) => (
                         <motion.div key={field.name} variants={fieldVariants} custom={i + 4}>
                             <SelectField {...field} value={formData[field.name]} onChange={handleChange} />
@@ -191,7 +191,7 @@ const RequestQuoteForm = () => {
 
                     <motion.div variants={fieldVariants} custom={8} className="col-span-1 md:col-span-2">
                         <label htmlFor="Message" className="text-white font-semibold mb-2 flex items-center gap-2">
-                            <MessageSquare size={18} className="text-[#663BFF]" />
+                            <MessageSquare size={18} className="text-[var(--primary-color)]" />
                             Project Description
                         </label>
                         <textarea
@@ -219,7 +219,7 @@ const RequestQuoteForm = () => {
                             disabled={loading}
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
-                            className="w-full md:w-1/2 py-3 bg-gradient-to-r from-indigo-500 to-[#663BFF] text-white font-semibold text-lg rounded-lg shadow-lg hover:to-indigo-600 disabled:opacity-50 transition-all duration-300 flex justify-center items-center gap-2"
+                            className="w-full md:w-1/2 py-3 bg-gradient-to-r from-indigo-500 to-[var(--primary-color)] text-white font-semibold text-lg rounded-lg shadow-lg hover:to-indigo-600 disabled:opacity-50 transition-all duration-300 flex justify-center items-center gap-2"
                         >
                             <Send size={18} className="text-white" />
                             {loading ? (

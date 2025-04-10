@@ -11,7 +11,7 @@ const Footer = () => {
           <section aria-labelledby="footer-logo">
             <Link href="/" aria-label="BeingxBot Homepage">
               <h2 id="footer-logo" className="text-2xl font-extrabold">
-                Being<span className="text-[#663bff]">x</span>Bot
+                Being<span className="text-[var(--primary-color)]">x</span>Bot
               </h2>
             </Link>
             <p className="mt-4 text-gray-300">
@@ -73,22 +73,22 @@ const Footer = () => {
             <h3 id="social-media" className="text-xl font-semibold mb-4">Follow Us</h3>
             <div className="flex space-x-4">
               <Link href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-                <div className="p-3 bg-[#663BFF] rounded-full hover:bg-[#6366F1] transition duration-300">
+                <div className="p-3 bg-[var(--primary-color)] rounded-full hover:bg-[#6366F1] transition duration-300">
                   <FaFacebookF size={20} aria-hidden="true" />
                 </div>
               </Link>
               <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
-                <div className="p-3 bg-[#663bff] rounded-full hover:bg-[#6366F1] transition duration-300">
+                <div className="p-3 bg-[var(--primary-color)] rounded-full hover:bg-[#6366F1] transition duration-300">
                   <FaTwitter size={20} aria-hidden="true" />
                 </div>
               </Link>
               <Link href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-                <div className="p-3 bg-[#663BFF] rounded-full hover:bg-[#6366F1] transition duration-300">
+                <div className="p-3 bg-[var(--primary-color)] rounded-full hover:bg-[#6366F1] transition duration-300">
                   <FaInstagram size={20} aria-hidden="true" />
                 </div>
               </Link>
               <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-                <div className="p-3 bg-[#663BFF] rounded-full hover:bg-[#6366F1] transition duration-300">
+                <div className="p-3 bg-[var(--primary-color)] rounded-full hover:bg-[#6366F1] transition duration-300">
                   <FaLinkedinIn size={20} aria-hidden="true" />
                 </div>
               </Link>

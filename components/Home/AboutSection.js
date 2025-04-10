@@ -35,8 +35,8 @@ export default function AboutSection() {
                     viewport={{ once: true }}
                 >
                     <h2 className="text-5xl font-bold text-[#373749] relative inline-block">
-                        About <span className="text-[#663bff]">BeingxBot</span>
-                        <span className="absolute left-0 bottom-[-5px] w-full h-[4px] bg-[#663bff] rounded-md"></span>
+                        About <span className="text-[var(--primary-color)]">BeingxBot</span>
+                        <span className="absolute left-0 bottom-[-5px] w-full h-[4px] bg-[var(--primary-color)] rounded-md"></span>
                     </h2>
                 </motion.div>
 
@@ -85,7 +85,7 @@ export default function AboutSection() {
                                     transition={{ duration: 0.8, delay: 0.4 }}
                                     viewport={{ once: true }}
                                 >
-                                    <h3 className="text-xl font-semibold text-[#663bff]">{title}</h3>
+                                    <h3 className="text-xl font-semibold text-[var(--primary-color)]">{title}</h3>
                                     <p className="text-gray-600 mt-2">{text}</p>
                                 </motion.div>
                             ))}
@@ -101,7 +101,7 @@ export default function AboutSection() {
                         >
                             <Link
                                 href="/about"
-                                className="bg-[#663bff] text-white px-6 py-3 rounded-lg transition-transform transform hover:scale-105 hover:bg-[#6366F1] duration-300"
+                                className="bg-[var(--primary-color)] text-white px-6 py-3 rounded-lg transition-transform transform hover:scale-105 hover:bg-[#6366F1] duration-300"
                             >
                                 Know More
                             </Link>

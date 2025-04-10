@@ -147,7 +147,7 @@ export default function WorkflowSection() {
                     width: 40px;
                     height: 40px;
                     border-radius: 50%;
-                    background-color: #663bff;
+                    background-color: var(--primary-color);
                     color: #fff;
                     display: flex;
                     justify-content: center;
@@ -176,7 +176,7 @@ export default function WorkflowSection() {
                 }
 
                 .progress {
-                    background-color: #663bff;
+                    background-color: var(--primary-color);
                     position: absolute;
                     top: 0;
                     left: 0;
@@ -200,7 +200,7 @@ export default function WorkflowSection() {
                 }
 
                 .text-box h2 {
-                    background-color: #663bff;
+                    background-color: var(--primary-color);
                     color: #fff;
                     font-weight: 700;
                     padding: 16px;

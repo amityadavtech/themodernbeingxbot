@@ -77,7 +77,7 @@ export default function AskQuestion() {
     <section className="md:pt-8 bg-[#0F0E17]">
       <div className="md:max-w-[60vw] mx-auto p-4 rounded-2xl shadow-2xl backdrop-blur-lg bg-[#1a1b25] border border-white/20 mb-3">
         <h2 className="text-3xl md:text-4xl font-semibold mt-8 mb-4 text-center text-white">
-          <span className="text-[#663BFF]">Recent</span> Questions
+          <span className="text-[var(--primary-color)]">Recent</span> Questions
         </h2>
 
         {loading ? (
@@ -142,7 +142,7 @@ export default function AskQuestion() {
         )}
 
         <h3 className="text-3xl md:text-4xl font-semibold mt-8 mb-4 text-center text-white">
-          <span className="text-[#663BFF]">Ask</span> Your Question
+          <span className="text-[var(--primary-color)]">Ask</span> Your Question
         </h3>
 
         {notification && (
@@ -175,7 +175,7 @@ export default function AskQuestion() {
           <button
             type="submit"
             disabled={submitDisabled}
-            className={`w-full py-3 rounded-lg text-lg font-semibold text-white bg-gradient-to-r from-indigo-500 to-[#663BFF] shadow-lg transition-all ${
+            className={`w-full py-3 rounded-lg text-lg font-semibold text-white bg-gradient-to-r from-indigo-500 to-[var(--primary-color)] shadow-lg transition-all ${
               submitDisabled ? "opacity-50 cursor-not-allowed" : "hover:to-indigo-600"
             }`}
           >

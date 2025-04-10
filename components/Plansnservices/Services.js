@@ -108,7 +108,7 @@ export default function Services() {
         <section className="py-16 bg-[#0F0E17] px-2 pt-24" id="services">
             <div className="max-w-7xl mx-auto md:px-6 px-2 text-center">
                 <div className="text-center mb-12">
-                    <h1 className="text-4xl md:text-6xl font-extrabold text-[#663bff]">
+                    <h1 className="text-4xl md:text-6xl font-extrabold text-[var(--primary-color)]">
                         Our <span className="text-white">Services</span>
                     </h1>
                     <p className="text-lg text-gray-400 mb-10">

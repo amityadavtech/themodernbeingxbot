@@ -166,7 +166,7 @@ export default function SecureContactForm() {
       <div className="max-w-4xl w-full bg-[#1a1b25] shadow-lg rounded-3xl p-6 sm:p-12 space-y-8">
         <div className="text-center">
           <h1 className="text-4xl md:text-5xl font-extrabold text-white mb-4 leading-tight">
-            Let's <span className="text-[#663BFF]">Connect</span>
+            Let's <span className="text-[var(--primary-color)]">Connect</span>
           </h1>
           <p className="text-gray-400 text-lg">
             Have a project in mind? We'd love to hear from you!
@@ -195,15 +195,15 @@ export default function SecureContactForm() {
           {[
             {
               name: "Name",
-              icon: <User className="text-[#663BFF]" size={18} />,
+              icon: <User className="text-[var(--primary-color)]" size={18} />,
             },
             {
               name: "Email",
-              icon: <Mail className="text-[#663BFF]" size={18} />,
+              icon: <Mail className="text-[var(--primary-color)]" size={18} />,
             },
             {
               name: "Number",
-              icon: <Phone className="text-[#663BFF]" size={18} />,
+              icon: <Phone className="text-[var(--primary-color)]" size={18} />,
             },
           ].map(({ name, icon }, index) => (
             <motion.div
@@ -256,7 +256,7 @@ export default function SecureContactForm() {
                 whileHover={{ scale: 1.2, rotate: 5 }}
                 transition={{ type: "spring", stiffness: 300 }}
               >
-                <PackageOpen className="text-[#663BFF]" size={18} />
+                <PackageOpen className="text-[var(--primary-color)]" size={18} />
               </motion.span>
               Choose a Plan (Optional)
             </label>
@@ -286,7 +286,7 @@ export default function SecureContactForm() {
                 whileHover={{ scale: 1.2, rotate: 5 }}
                 transition={{ type: "spring", stiffness: 300 }}
               >
-                <MessageSquare className="text-[#663BFF]" size={18} />
+                <MessageSquare className="text-[var(--primary-color)]" size={18} />
               </motion.span>
               Message
             </label>
@@ -308,7 +308,7 @@ export default function SecureContactForm() {
               disabled={loading}
               whileTap={{ scale: 0.95 }}
               whileHover={{ scale: 1.02 }}
-              className="w-full md:w-1/2 py-3 bg-gradient-to-r from-indigo-500 to-[#663BFF] text-white font-semibold text-lg rounded-lg shadow-md hover:to-indigo-600 disabled:opacity-50 flex justify-center items-center gap-2"
+              className="w-full md:w-1/2 py-3 bg-gradient-to-r from-indigo-500 to-[var(--primary-color)] text-white font-semibold text-lg rounded-lg shadow-md hover:to-indigo-600 disabled:opacity-50 flex justify-center items-center gap-2"
             >
               {loading ? (
                 <div className="animate-spin rounded-full h-6 w-6 border-t-2 border-b-2 border-white"></div>

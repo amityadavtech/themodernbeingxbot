@@ -61,7 +61,7 @@ export default function HeroSection() {
                             </span>
                             <span
                                 ref={typedTextRef}
-                                className="text-[#663BFF] hover:text-indigo-600 transition typedtext"
+                                className="text-[var(--primary-color)] hover:text-indigo-600 transition typedtext"
                                 aria-live="polite"
                             ></span>
                         </h1>
@@ -72,12 +72,12 @@ export default function HeroSection() {
                     </p>
 
                     <section className="flex sm:flex-row gap-4 sm:justify-start mb-12 transition-all duration-1000 ease-in-out" aria-label="Call to action links">
-                        <div className="absolute -bottom-[32rem] -left-[20rem] w-[28rem] h-[28rem] bg-[#663BFF] rounded-full blur-[152px]" aria-hidden="true"></div>
+                        <div className="absolute -bottom-[32rem] -left-[20rem] w-[28rem] h-[28rem] bg-[var(--primary-color)] rounded-full blur-[152px]" aria-hidden="true"></div>
 
                         <Link
                             href="/contact"
                             aria-label="Start your project with BeingxBot"
-                            className="bg-[#633BFF] flex items-center gap-2 text-white px-3 py-2 text-sm sm:text-lg sm:px-6 sm:py-3 rounded-lg hover:bg-indigo-600 transition transform hover:scale-105"
+                            className="bg-[var(--primary-color)] flex items-center gap-2 text-white px-3 py-2 text-sm sm:text-lg sm:px-6 sm:py-3 rounded-lg hover:bg-indigo-600 transition transform hover:scale-105"
                         >
                             Get Started <ArrowRight size={18} />
                         </Link>
@@ -93,7 +93,7 @@ export default function HeroSection() {
 
                     <section className="flex items-center space-x-6 transition-all duration-1000 ease-in-out">
                         <div className="flex -space-x-3" aria-hidden="true">
-                            <div className="w-12 h-12 rounded-full border-2 border-background bg-[#633BFF] flex items-center justify-center text-white ">
+                            <div className="w-12 h-12 rounded-full border-2 border-background bg-[var(--primary-color)] flex items-center justify-center text-white ">
                                 <span className="font-bold">500+</span>
                             </div>
                             <div className="w-12 h-12 rounded-full border-2 border-background bg-[#623bff83] flex items-center justify-center text-white ">
@@ -104,7 +104,7 @@ export default function HeroSection() {
                             </div>
                         </div>
                         <p className="text-muted-foreground font-medium">
-                            Trusted by <span className="text-[#633BFF]">500+</span> clients
+                            Trusted by <span className="text-[var(--primary-color)]">500+</span> clients
                         </p>
 
                         <svg className="absolute left-6 w-[250px] h-[40px] opacity-5 z-10 animate-slow-float" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 50" fill="none" aria-hidden="true">

@@ -34,10 +34,10 @@ const ContentBlock = ({
     <MotionDiv>
       <div className="text-white space-y-5">
         <h2 className="md:text-4xl text-[1.75rem] font-semibold">
-          {title} <span className="text-[#663bff]">{highlight}</span>
+          {title} <span className="text-[var(--primary-color)]">{highlight}</span>
         </h2>
         <p className="text-gray-400 leading-7">
-          <span className="highlight-effect bg-gradient-to-r from-[#663bff] to-[#4C25D9] bg-no-repeat bg-[0_100%] bg-[length:0%_100%] transition-all duration-1000 font-semibold">
+          <span className="highlight-effect bg-gradient-to-r from-[var(--primary-color)] to-[#4C25D9] bg-no-repeat bg-[0_100%] bg-[length:0%_100%] transition-all duration-1000 font-semibold">
             {descriptionStart}
           </span>{" "}
           {descriptionEnd}

@@ -35,7 +35,7 @@ const plans = [
             "Up to 4 Custom Web Pages",
             "Priority Support",
         ],
-        color: "bg-[#663BFF] text-white",
+        color: "bg-[var(--primary-color)] text-white",
         popular: true,
     },
     {
@@ -71,7 +71,7 @@ export default function Plans() {
                 transition={{ duration: 0.5 }}
                 className="text-5xl font-bold text-center md:mb-8 mb-4 text-gray-800"
             >
-                Our <span className="text-[#663bff]">Plans</span>
+                Our <span className="text-[var(--primary-color)]">Plans</span>
             </motion.h1>
             <p className="text-lg text-gray-500 mb-8 max-w-7xl mx-auto md:px-6 px-4 text-center">
                 Smart solutions for growth, visibility, and success.
@@ -82,14 +82,14 @@ export default function Plans() {
                 <div className="bg-white p-2 rounded-full shadow-md space-x-2">
                     <button
                         onClick={() => setIsYearly(false)}
-                        className={`px-4 py-2 mx-2 rounded-full font-semibold transition-transform duration-300 ${!isYearly ? "bg-[#663BFF] text-white" : "bg-gray-200 text-gray-600"
+                        className={`px-4 py-2 mx-2 rounded-full font-semibold transition-transform duration-300 ${!isYearly ? "bg-[var(--primary-color)] text-white" : "bg-gray-200 text-gray-600"
                             }`}
                     >
                         Monthly
                     </button>
                     <button
                         onClick={() => setIsYearly(true)}
-                        className={`px-4 py-2 mx-2 rounded-full font-semibold transition-transform duration-300 ${isYearly ? "bg-[#663BFF] text-white" : "bg-gray-200 text-gray-600"
+                        className={`px-4 py-2 mx-2 rounded-full font-semibold transition-transform duration-300 ${isYearly ? "bg-[var(--primary-color)] text-white" : "bg-gray-200 text-gray-600"
                             }`}
                     >
                         Yearly
@@ -118,7 +118,7 @@ export default function Plans() {
                             </div>
                         )}
                         <h2 id={`plan-${plan.title}-heading`} className="text-3xl font-bold mb-2 text-gray-800">{plan.title}</h2>
-                        <p className="text-4xl font-semibold text-[#663BFF]">
+                        <p className="text-4xl font-semibold text-[var(--primary-color)]">
                             {isYearly ? plan.yearlyPrice : plan.price}
                         </p>
                         <p className="text-gray-600 mb-4">{plan.details}</p>
@@ -142,8 +142,8 @@ export default function Plans() {
                                 className={`inline-block px-6 py-3 text-white rounded-xl shadow-lg transition-all duration-500 ease-in-out hover:shadow-indigo-500/30
         bg-[length:100%_100%] bg-no-repeat
         ${plan.popular
-                                        ? "bg-gradient-to-r from-indigo-500 to-[#663BFF] hover:from-yellow-300 hover:to-yellow-400 hover:text-white"
-                                        : "bg-gradient-to-r from-indigo-500 to-[#663BFF] hover:from-indigo-600 hover:to-indigo-700"
+                                        ? "bg-gradient-to-r from-indigo-500 to-[var(--primary-color)] hover:from-yellow-300 hover:to-yellow-400 hover:text-white"
+                                        : "bg-gradient-to-r from-indigo-500 to-[var(--primary-color)] hover:from-indigo-600 hover:to-indigo-700"
                                     }`}
                             >
                                 Get Started

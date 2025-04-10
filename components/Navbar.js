@@ -36,14 +36,14 @@ export default function Navbar() {
 
       if (scrollY > 10) {
         header?.classList.add('backdrop-blur-md', 'bg-white', 'shadow-md');
-        Navlogo?.classList.add('text-[#633BFF]')
+        Navlogo?.classList.add('text-[var(--primary-color)]')
         Navlogo?.classList.remove('text-white')
 
         desktopLinks.forEach(link => {
           const isActive = link.getAttribute('aria-current') === 'page';
           link.classList.remove('text-white');
           if (!isActive) {
-            link.classList.add('text-gray-800', 'hover:text-[#663BFF]');
+            link.classList.add('text-gray-800', 'hover:text-[var(--primary-color)]');
           }
         });
       } else {
@@ -53,7 +53,7 @@ export default function Navbar() {
         desktopLinks.forEach(link => {
           const isActive = link.getAttribute('aria-current') === 'page';
           if (!isActive) {
-            link.classList.remove('text-gray-800', 'hover:text-[#663BFF]');
+            link.classList.remove('text-gray-800', 'hover:text-[var(--primary-color)]');
             link.classList.add('text-white');
           }
         });
@@ -80,7 +80,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" aria-label="BeingxBot Homepage">
           <h2 id="navbar-logo" className="text-2xl font-extrabold ">
-            Being<span className="text-[#633BFF]">x</span>Bot
+            Being<span className="text-[var(--primary-color)]">x</span>Bot
           </h2>
         </Link>
 
@@ -114,8 +114,8 @@ export default function Navbar() {
               href={href}
               aria-current={pathname === href ? 'page' : undefined}
               className={`desktop-nav-link font-semibold px-4 py-2 flex items-center gap-2 transition-all duration-200 text-base ${pathname === href
-                  ? 'text-[#663BFF] hover:text-indigo-600'
-                  : 'text-white hover:text-[#633BFF]'
+                  ? 'text-[var(--primary-color)] hover:text-indigo-600'
+                  : 'text-white hover:text-[var(--primary-color)]'
                 }`}
             >
               <Icon size={20} strokeWidth={2.2} />
@@ -124,7 +124,7 @@ export default function Navbar() {
           ))}
           <Link
             href="/request-quote"
-            className="bg-[#663BFF] text-white px-4 py-2 rounded-lg hover:bg-indigo-600 transition-all duration-200 flex items-center gap-2 text-lg"
+            className="bg-[var(--primary-color)] text-white px-4 py-2 rounded-lg hover:bg-indigo-600 transition-all duration-200 flex items-center gap-2 text-lg"
           >
             <Send size={20} strokeWidth={2.2} className="stroke-white" />
             Request a Quote
@@ -144,8 +144,8 @@ export default function Navbar() {
               href={href}
               aria-current={pathname === href ? 'page' : undefined}
               className={`w-full text-left text-lg font-semibold flex items-center gap-4 py-2 px-4 rounded-lg transition-all duration-300 ${pathname === href
-                  ? 'text-[#663BFF]'
-                  : 'hover:bg-[#2A2A40] hover:text-[#663BFF]'
+                  ? 'text-[var(--primary-color)]'
+                  : 'hover:bg-[#2A2A40] hover:text-[var(--primary-color)]'
                 }`}
               onClick={toggleMenu}
             >
@@ -155,7 +155,7 @@ export default function Navbar() {
           ))}
           <Link
             href="/request-quote"
-            className="w-full bg-[#663BFF] text-white py-3 px-2 rounded-lg hover:bg-[#5a2fff] transition-all duration-300 flex justify-center items-center gap-3 text-lg text-center"
+            className="w-full bg-[var(--primary-color)] text-white py-3 px-2 rounded-lg hover:bg-[#5a2fff] transition-all duration-300 flex justify-center items-center gap-3 text-lg text-center"
             onClick={toggleMenu}
           >
             <Send size={22} strokeWidth={2.2} className="stroke-white" />

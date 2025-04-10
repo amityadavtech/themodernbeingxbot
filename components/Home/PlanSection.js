@@ -54,12 +54,12 @@ const PricingPlans = () => {
         transition={{ duration: 0.6 }}
         viewport={{ once: true }}
       >
-        <span className="text-[#663BFF]">Choose </span>Your Plan
-        <span className="absolute left-0 bottom-[-5px] w-full h-[4px] bg-[#663BFF] rounded-md" />
+        <span className="text-[var(--primary-color)]">Choose </span>Your Plan
+        <span className="absolute left-0 bottom-[-5px] w-full h-[4px] bg-[var(--primary-color)] rounded-md" />
       </motion.h2>
 
       <motion.p
-        className="text-[#663BFF] font-semibold text-sm"
+        className="text-[var(--primary-color)] font-semibold text-sm"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ delay: 0.2, duration: 0.6 }}
@@ -76,16 +76,16 @@ const PricingPlans = () => {
         viewport={{ once: true }}
       >
         <div className="flex items-center space-x-3">
-          <span className={`text-white font-medium ${!yearly ? "text-[#663BFF]" : "text-gray-400"}`}>Monthly</span>
+          <span className={`text-white font-medium ${!yearly ? "text-[var(--primary-color)]" : "text-gray-400"}`}>Monthly</span>
           <label className="relative inline-flex items-center cursor-pointer">
             <input type="checkbox" className="sr-only peer" checked={yearly} onChange={() => setYearly(!yearly)} />
-            <div className="w-12 h-6 bg-gray-600 rounded-full peer-checked:bg-[#663BFF] peer transition-all" />
+            <div className="w-12 h-6 bg-gray-600 rounded-full peer-checked:bg-[var(--primary-color)] peer transition-all" />
             <div className="absolute left-1 top-1 w-4 h-4 bg-white rounded-full peer-checked:translate-x-6 transition-all" />
           </label>
-          <span className={`text-white font-medium ${yearly ? "text-[#663BFF]" : "text-gray-400"}`}>Yearly</span>
+          <span className={`text-white font-medium ${yearly ? "text-[var(--primary-color)]" : "text-gray-400"}`}>Yearly</span>
         </div>
         <select
-          className="p-3 rounded-lg text-white bg-[#1A1A1A] border border-[#663BFF] outline-none"
+          className="p-3 rounded-lg text-white bg-[#1A1A1A] border border-[var(--primary-color)] outline-none"
           value={selected}
           onChange={(e) => setSelected(e.target.value)}
         >
@@ -100,7 +100,7 @@ const PricingPlans = () => {
             <motion.article
               key={i}
               className={`highlight-effect p-6 rounded-xl border bg-[#1a1b25] shadow-md transition-all w-full sm:max-w-[85%] md:max-w-[90%] lg:max-w-sm 
-                ${isSel ? "border-[#663BFF] scale-105 shadow-[#663BFF]/80" : "border-white/15"}`}
+                ${isSel ? "border-[var(--primary-color)] scale-105 shadow-[var(--primary-color)]/80" : "border-white/15"}`}
               onMouseEnter={() => setHovered(p.name)}
               onMouseLeave={() => setHovered(null)}
               initial={{ opacity: 0, y: 40 }}
@@ -109,13 +109,13 @@ const PricingPlans = () => {
               transition={{ duration: 0.4 }}
               viewport={{ once: true }}
             >
-              <h3 className="text-lg font-semibold text-[#663BFF] text-center">{p.name}</h3>
+              <h3 className="text-lg font-semibold text-[var(--primary-color)] text-center">{p.name}</h3>
               <p className="text-sm text-gray-400 text-center">{p.info}</p>
-              <p className="text-4xl font-bold text-[#663BFF] mt-3 text-center">{yearly ? p.yearly : p.monthly}</p>
+              <p className="text-4xl font-bold text-[var(--primary-color)] mt-3 text-center">{yearly ? p.yearly : p.monthly}</p>
               <ul className="mt-4 text-white space-y-2 text-base">
                 {p.features.map((f, j) => (
                   <li key={j} className="flex items-center">
-                    <Check size={18} className="text-[#663BFF] mr-2" />{f}
+                    <Check size={18} className="text-[var(--primary-color)] mr-2" />{f}
                   </li>
                 ))}
               </ul>
@@ -127,7 +127,7 @@ const PricingPlans = () => {
                   query: { plan: p.name.charAt(0) + p.name.slice(1).toLowerCase() }
                 }}
                 className={`mt-4 block text-center w-full py-2.5 rounded-lg text-white font-semibold transition-all duration-300 transform 
-                  ${isSel ? "bg-[#663BFF] hover:bg-[#5a33e6]" : "bg-gray-600 hover:bg-[#663BFF] hover:scale-105"}`}
+                  ${isSel ? "bg-[var(--primary-color)] hover:bg-[#5a33e6]" : "bg-gray-600 hover:bg-[var(--primary-color)] hover:scale-105"}`}
               >
                 <span className="flex items-center justify-center gap-2">
                   Get Started
