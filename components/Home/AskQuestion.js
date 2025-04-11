@@ -15,6 +15,18 @@ export default function AskQuestion() {
   const [loading, setLoading] = useState(false);
   const [submitDisabled, setSubmitDisabled] = useState(false);
   const contactRef = useRef(null);
+  const [charLimit, setCharLimit] = useState(70);
+
+  useEffect(() => {
+    const updateCharLimit = () => {
+      const isMobile = window.innerWidth <= 640;
+      setCharLimit(isMobile ? 30 : 100);
+    };
+  
+    updateCharLimit();
+    window.addEventListener("resize", updateCharLimit);
+    return () => window.removeEventListener("resize", updateCharLimit);
+  }, []);
 
   const toggleShowMore = (i) =>
     setShowFullText((prev) => ({ ...prev, [i]: !prev[i] }));
@@ -88,7 +100,7 @@ export default function AskQuestion() {
               questions.map((q, i) => (
                 <li
                   key={i}
-                  className="p-2 rounded-xl shadow-lg bg-[#1E1E2E]/70 text-white flex gap-4 items-start ring-2 ring-[#2d2a3c] hover:scale-[1.02] hover:ring-indigo-600 transition-all"
+                  className="p-2 rounded-xl shadow-lg bg-[#1E1E2E]/70 text-white flex gap-3 items-start ring-2 ring-[#2d2a3c] hover:scale-[1.02] hover:ring-indigo-600 transition-all"
                 >
                   <img
                     src={
@@ -122,7 +134,7 @@ export default function AskQuestion() {
                     >
                       {q.question}
                     </p>
-                    {q.question.length > 70 && (
+                    {q.question.length > charLimit && (
                       <button
                         onClick={() => toggleShowMore(i)}
                         className="text-[#aaa] mt-2 hover:underline text-sm"
