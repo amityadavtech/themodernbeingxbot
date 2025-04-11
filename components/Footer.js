@@ -1,4 +1,4 @@
-import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaGithub } from "react-icons/fa";
 import Link from "next/link";
 
 const Footer = () => {
@@ -72,9 +72,9 @@ const Footer = () => {
           <section aria-labelledby="social-media">
             <h3 id="social-media" className="text-xl font-semibold mb-4">Follow Us</h3>
             <div className="flex space-x-4">
-              <Link href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <Link href="https://github.com/amityadavtech" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
                 <div className="p-3 bg-[var(--primary-color)] rounded-full hover:bg-[#6366F1] transition duration-300">
-                  <FaFacebookF size={20} aria-hidden="true" />
+                  <FaGithub size={20} aria-hidden="true" />
                 </div>
               </Link>
               <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
@@ -82,7 +82,7 @@ const Footer = () => {
                   <FaTwitter size={20} aria-hidden="true" />
                 </div>
               </Link>
-              <Link href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <Link href="https://instagram.com/beingxbot" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                 <div className="p-3 bg-[var(--primary-color)] rounded-full hover:bg-[#6366F1] transition duration-300">
                   <FaInstagram size={20} aria-hidden="true" />
                 </div>
