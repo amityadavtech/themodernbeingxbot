@@ -73,7 +73,7 @@ export default function FaqsSection() {
            transition={{ duration: 0.4, delay: index * 0.1 }}
             className={`transition-all duration-300 rounded-xl p-[2px] 
               ${openIndex === index
-                ? "bg-gradient-to-br from-[var(--primary-color)]/60 to-[#4C25D9]/30 shadow-xl"
+                ? "bg-gradient-to-br from-[#633BFF]/60 to-[#4C25D9]/30 shadow-xl"
                 : "bg-[#2d2a3c]"
               }`}
           >
@@ -86,7 +86,7 @@ export default function FaqsSection() {
                     <span
                       className={`p-2 rounded-full transition-all duration-300 shadow-md 
                         ${openIndex === index
-                          ? "bg-[var(--primary-color)]/20 text-[var(--primary-color)] shadow-[var(--primary-color)40]"
+                          ? "bg-[#633BFF]/20 text-[var(--primary-color)] shadow-[#633BFF])40]"
                           : "bg-[#2d2a3c] text-gray-400"
                         }`}
                     >
@@ -103,7 +103,7 @@ export default function FaqsSection() {
                     className={`w-6 h-6 flex-shrink-0 rounded-full transition-all duration-300 shadow-md 
     bg-[#2A2A3C] text-gray-400
     ${openIndex === index
-                        ? "rotate-180 text-[var(--primary-color)] bg-[var(--primary-color)]/20 animate-pulse"
+                        ? "rotate-180 text-[var(--primary-color)] bg-[#633BFF]/20 animate-pulse"
                         : ""
                       }`}
                   />
@@ -132,7 +132,7 @@ export default function FaqsSection() {
           <p className="text-sm text-gray-400 mb-2">Still have questions?</p>
           <a
             href="/contact"
-            className="inline-block px-6 py-3 bg-gradient-to-r from-indigo-500 to-[var(--primary-color)] hover:from-indigo-600 hover:to-indigo-700 text-white rounded-xl shadow-lg hover:shadow-indigo-500/30 transition-all duration-300"
+            className="inline-block px-6 py-3 bg-gradient-to-r from-indigo-500 to-[#633BFF] hover:from-indigo-600 hover:to-indigo-700 text-white rounded-xl shadow-lg hover:shadow-indigo-500/30 transition-all duration-300"
           >
             Contact Us
           </a>
