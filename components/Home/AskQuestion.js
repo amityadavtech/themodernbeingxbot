@@ -88,7 +88,7 @@ export default function AskQuestion() {
               questions.map((q, i) => (
                 <li
                   key={i}
-                  className="p-4 rounded-xl shadow-lg bg-[#1E1E2E]/70 text-white flex gap-4 items-start ring-2 ring-[#2d2a3c] hover:scale-[1.02] hover:ring-indigo-600 transition-all"
+                  className="p-2 rounded-xl shadow-lg bg-[#1E1E2E]/70 text-white flex gap-4 items-start ring-2 ring-[#2d2a3c] hover:scale-[1.02] hover:ring-indigo-600 transition-all"
                 >
                   <img
                     src={
@@ -122,7 +122,7 @@ export default function AskQuestion() {
                     >
                       {q.question}
                     </p>
-                    {q.question.length > 100 && (
+                    {q.question.length > 70 && (
                       <button
                         onClick={() => toggleShowMore(i)}
                         className="text-[#aaa] mt-2 hover:underline text-sm"
