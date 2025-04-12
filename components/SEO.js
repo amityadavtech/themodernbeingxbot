@@ -24,7 +24,7 @@ export default function SEO({ title, description, keywords, image, url, addition
 
       {/* Canonical & Icons */}
       <link rel="canonical" href={url} />
-      <link rel="icon" href="/images/beingxbot-favicon.png" />
+      <link rel="icon" href="/images/beingxbot-favicon2.png" />
       <link rel="apple-touch-icon" href="/images/beingxbot-touch.png" />
 
       {/* Additional Meta */}
