@@ -1,4 +1,4 @@
-module.exports = {
+export default {
     siteUrl: 'https://beingxbot.tech', 
     generateRobotsTxt: true, 
     changefreq: 'daily', 
