@@ -1,23 +1,16 @@
 module.exports = {
-  siteUrl: 'https://beingxbot.tech',
-  generateRobotsTxt: true,
+  siteUrl: 'https://beingxbot.tech', 
+  generateRobotsTxt: true, 
+  sitemapSize: 5000,
   changefreq: 'daily',
   priority: 0.7,
-  sitemapSize: 5000,
+  exclude: ['/404', '/server-sitemap.xml'], 
   autoLastmod: true,
-  exclude: ['/404'],
   transform: async (config, path) => {
     return {
       loc: path,
       changefreq: 'daily',
       priority: 0.7,
     };
-  },
-  robotsTxtOptions: {
-    additionalSitemaps: [
-      'https://beingxbot.tech/sitemap-0.xml',
-      'https://beingxbot.tech/sitemap-1.xml',
-      'https://beingxbot.tech/server-sitemap.xml',
-    ],
   },
 };

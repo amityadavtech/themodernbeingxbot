@@ -7,6 +7,3 @@ Host: https://beingxbot.tech
 
 # Sitemaps
 Sitemap: https://beingxbot.tech/sitemap.xml
-Sitemap: https://beingxbot.tech/sitemap-0.xml
-Sitemap: https://beingxbot.tech/sitemap-1.xml
-Sitemap: https://beingxbot.tech/server-sitemap.xml
