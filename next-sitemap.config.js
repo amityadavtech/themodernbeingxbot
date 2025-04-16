@@ -1,4 +1,3 @@
-/** @type {import('next-sitemap').IConfig} */
 module.exports = {
   siteUrl: 'https://beingxbot.tech',
   generateRobotsTxt: true,
@@ -6,7 +5,7 @@ module.exports = {
   priority: 0.7,
   sitemapSize: 5000,
   autoLastmod: true,
-  exclude: ['/404', '/server-sitemap.xml'],
+  exclude: ['/404'],
   transform: async (config, path) => {
     return {
       loc: path,
@@ -17,6 +16,7 @@ module.exports = {
   robotsTxtOptions: {
     additionalSitemaps: [
       'https://beingxbot.tech/sitemap-0.xml',
+      'https://beingxbot.tech/sitemap-1.xml',
       'https://beingxbot.tech/server-sitemap.xml',
     ],
   },
