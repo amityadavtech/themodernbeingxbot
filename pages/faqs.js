@@ -10,7 +10,7 @@ export default function FaqPage() {
     description:
       "Explore the most frequently asked questions about BeingxBot's web development, SEO, and digital marketing services. Get clarity, fast.",
     keywords:
-      "BeingxBot FAQs, website agency help, SEO service questions, digital marketing answers, web development queries, BeingxBot support",
+      "BeingxBot FAQs, website agency help, SEO service questions,Website Desiging in Lucknow, Website Design near Lucknow, Website Development in Lucknow, Website Development near Lucknow, Digital marketing near lucknow, web design in lucknow, web desing near me, digital marketing answers, web development queries, BeingxBot support",
     image: "/images/beingxbot-faqs-banner.jpg",
     url: "https://beingxbot.tech/faqs",
   };

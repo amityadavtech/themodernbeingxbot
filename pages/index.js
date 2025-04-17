@@ -13,7 +13,7 @@ export default function Home() {
     description:
       "Boost your business with BeingxBot — experts in web development, SEO optimization, responsive design, and digital marketing. Launch fast. Grow smart.",
     keywords:
-      "Web development agency, SEO company, digital marketing, mobile-first design, React websites, Next.js SEO, performance optimization, BeingxBot, website services India",
+      "Web development agency, Website Desiging in Lucknow, Website Design near Lucknow, Website Development in Lucknow, Website Development near Lucknow, Digital marketing near lucknow, web design in lucknow, web desing near me, SEO company, digital marketing, mobile-first design, React websites, Next.js SEO, performance optimization, BeingxBot, website services India",
     image: "/images/beingxbot-banner.png",
     url: "https://beingxbot.tech",
   };

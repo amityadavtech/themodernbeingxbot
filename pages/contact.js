@@ -10,7 +10,7 @@ export default function ContactPage() {
     description:
       "Get in touch with BeingxBot for custom web development, digital marketing, and SEO services. Reach out via form, email, or phone. Let's grow your business!",
     keywords:
-      "Contact BeingxBot, website development help, SEO agency India, hire web developers, digital marketing services, custom website inquiry, web development support, business growth consultation, React web agency contact",
+      "Contact BeingxBot, website development help,Website Desiging in Lucknow, Website Design near Lucknow, Website Development in Lucknow, Website Development near Lucknow, Digital marketing near lucknow, web design in lucknow, web desing near me, SEO agency India, hire web developers, digital marketing services, custom website inquiry, web development support, business growth consultation, React web agency contact",
     image: "/images/beingxbot-contact.jpg",
     url: "https://beingxbot.tech/contact",
   };

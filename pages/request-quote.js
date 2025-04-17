@@ -10,7 +10,7 @@ export default function RequestQuotePage() {
     description:
       "Request a free quote from BeingxBot for website development, SEO optimization, or digital marketing. Get expert solutions tailored to your business needs.",
     keywords:
-      "Request quote web development, BeingxBot quote form, SEO services estimate, digital marketing pricing, custom website quote, web design cost, hire developer quote",
+      "Request quote web development, BeingxBot quote form,Website Desiging in Lucknow, Website Design near Lucknow, Website Development in Lucknow, Website Development near Lucknow, Digital marketing near lucknow, web design in lucknow, web desing near me, SEO services estimate, digital marketing pricing, custom website quote, web design cost, hire developer quote",
     image: "/images/beingxbot-request-quote.jpg",
     url: "https://beingxbot.tech/request-quote",
   };

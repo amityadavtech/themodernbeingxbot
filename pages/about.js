@@ -9,7 +9,7 @@ export default function About() {
     description:
       "Learn about BeingxBot — India’s modern web development and digital marketing agency. We specialize in building fast, secure websites, boosting Google rankings with SEO, and growing your brand through data-driven marketing strategies.",
     keywords:
-      "BeingxBot, web development agency India, SEO company, digital marketing experts, responsive website design, custom websites, Next.js development, Google SEO, online business growth, marketing agency",
+      "BeingxBot, web development agency India,Website Desiging in Lucknow, Website Design near Lucknow, Website Development in Lucknow, Website Development near Lucknow, Digital marketing near lucknow, web design in lucknow, web desing near me, web development agency Lucknow, SEO company, digital marketing experts, responsive website design, custom websites, Next.js development, Google SEO, online business growth, marketing agency",
     image: "/images/beingxbot-banner.png",
     url: "https://beingxbot.tech/about",
   };
