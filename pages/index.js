@@ -9,7 +9,7 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   const seoData = {
-    title: "BeingxBot | Modern Web Development & SEO Agency",
+    title: "BeingxBot | Software Company & Modern Web Development & SEO Agency ",
     description:
       "Boost your business with BeingxBot — experts in web development, SEO optimization, responsive design, and digital marketing. Launch fast. Grow smart.",
     keywords:
