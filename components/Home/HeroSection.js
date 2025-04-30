@@ -68,7 +68,7 @@ export default function HeroSection() {
                     </header>
 
                     <p className="text-base text-gray-400 sm:text-xl sm:leading-7 transition-opacity duration-1000 ease-in-out">
-                        BeingxBot builds SEO-optimized, fast, and mobile-friendly websites with expert web development, design, and digital marketing to grow your brand online.
+                        BeingxBot builds SEO-friendly, fast, and mobile-friendly websites, apps, and software solutions — combining expert web development, design, and digital marketing to grow your brand online.
                     </p>
 
                     <section className="flex sm:flex-row gap-4 sm:justify-start mb-12 transition-all duration-1000 ease-in-out" aria-label="Call to action links">
