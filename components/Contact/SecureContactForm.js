@@ -112,7 +112,7 @@ export default function SecureContactForm() {
           method: "POST",
           mode: "cors",
           headers: {
-            "Content-Type": "application/json",
+            "Content-Type": "application/x-www-form-urlencoded",
           },
           body: JSON.stringify({
             name: formData.Name.trim(),
