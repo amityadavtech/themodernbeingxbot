@@ -18,7 +18,7 @@ const Message = React.memo(({ message, type }) => {
         type === "success" ? "text-green-400" : "text-red-400"
       }`}
     >
-      {type === "success" ?  <span className="text-[#633BFF]">✔</span> : "⚠️ "} {message}
+      {type === "success" ? "✅ " : "⚠️ "} {message}
     </p>
   );
 });
