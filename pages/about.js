@@ -11,7 +11,7 @@ export default function About() {
     keywords:
       "BeingxBot, web development agency India,Website Desiging in Lucknow, Website Design near Lucknow, Website Development in Lucknow, Website Development near Lucknow, Digital marketing near lucknow, web design in lucknow, web desing near me, web development agency Lucknow, SEO company, digital marketing experts, responsive website design, custom websites, Next.js development, Google SEO, online business growth, marketing agency",
     image: "/images/beingxbot-banner.png",
-    url: "https://beingxbot.tech/about",
+    url: "https://beingxbot.in/about",
   };
 
   const structuredData = {

@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://beingxbot.tech
+Host: https://beingxbot.in
 
 # Sitemaps
-Sitemap: https://beingxbot.tech/sitemap.xml
+Sitemap: https://beingxbot.in/sitemap.xml

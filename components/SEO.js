@@ -15,7 +15,7 @@ export default function SEO({ title, description, keywords, image, url, addition
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content={image || "/images/beingxbot-logo.png"} />
-      <meta property="og:url" content={url || "https://beingxbot.tech"} />
+      <meta property="og:url" content={url || "https://beingxbot.in"} />
       <meta property="og:type" content="website" />
 
       {/* Twitter Tags */}

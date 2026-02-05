@@ -12,7 +12,7 @@ export default function RequestQuotePage() {
     keywords:
       "Request quote web development, BeingxBot quote form,Website Desiging in Lucknow, Website Design near Lucknow, Website Development in Lucknow, Website Development near Lucknow, Digital marketing near lucknow, web design in lucknow, web desing near me, SEO services estimate, digital marketing pricing, custom website quote, web design cost, hire developer quote",
     image: "/images/beingxbot-request-quote.jpg",
-    url: "https://beingxbot.tech/request-quote",
+    url: "https://beingxbot.in/request-quote",
   };
 
   const structuredData = {
@@ -23,8 +23,8 @@ export default function RequestQuotePage() {
     provider: {
       "@type": "Organization",
       name: "BeingxBot",
-      url: "https://beingxbot.tech",
-      logo: "https://beingxbot.tech/images/beingxbot-logo.png",
+      url: "https://beingxbot.in",
+      logo: "https://beingxbot.in/images/beingxbot-logo.png",
       contactPoint: {
         "@type": "ContactPoint",
         telephone: "+91-7079490430",

@@ -12,7 +12,7 @@ export default function ContactPage() {
     keywords:
       "Contact BeingxBot, website development help,Website Desiging in Lucknow, Website Design near Lucknow, Website Development in Lucknow, Website Development near Lucknow, Digital marketing near lucknow, web design in lucknow, web desing near me, SEO agency India, hire web developers, digital marketing services, custom website inquiry, web development support, business growth consultation, React web agency contact",
     image: "/images/beingxbot-contact.jpg",
-    url: "https://beingxbot.tech/contact",
+    url: "https://beingxbot.in/contact",
   };
 
   const structuredData = {
@@ -24,7 +24,7 @@ export default function ContactPage() {
     mainEntity: {
       "@type": "Organization",
       name: "BeingxBot",
-      url: "https://beingxbot.tech",
+      url: "https://beingxbot.in",
       logo: "/images/beingxbot-logo.png",
       contactPoint: {
         "@type": "ContactPoint",

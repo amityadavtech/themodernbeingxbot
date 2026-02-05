@@ -12,7 +12,7 @@ export default function PlansAndServices() {
     keywords:
       "BeingxBot plans, web development packages,Website Desiging in Lucknow, Website Design near Lucknow, Website Development in Lucknow, Website Development near Lucknow, Digital marketing near lucknow, web design in lucknow, web desing near me, SEO plans, digital marketing services, app development, UI/UX design, affordable website plans, professional web agency",
     image: "/images/beingxbot-banner.jpg",
-    url: "https://beingxbot.tech/plans&services",
+    url: "https://beingxbot.in/plans&services",
   };
 
   const structuredData = {

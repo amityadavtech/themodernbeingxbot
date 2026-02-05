@@ -12,7 +12,7 @@ export default function FaqPage() {
     keywords:
       "BeingxBot FAQs, website agency help, SEO service questions,Website Desiging in Lucknow, Website Design near Lucknow, Website Development in Lucknow, Website Development near Lucknow, Digital marketing near lucknow, web design in lucknow, web desing near me, digital marketing answers, web development queries, BeingxBot support",
     image: "/images/beingxbot-faqs-banner.jpg",
-    url: "https://beingxbot.tech/faqs",
+    url: "https://beingxbot.in/faqs",
   };
 
   const structuredData = {

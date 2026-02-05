@@ -15,7 +15,7 @@ export default function Home() {
     keywords:
       "Web Developer in Lucknow, Website Developer in Lucknow, App Developer in Lucknow, BeingxBot – Website Design & Digital Solutions | Website Development, Software Development & SEO Services, Web development agency, Website Desiging in Lucknow, Website Design near Lucknow, Website Development in Lucknow, Website Development near Lucknow, Digital marketing near lucknow, web design in lucknow, web desing near me, SEO company, digital marketing, mobile-first design, React websites, Next.js SEO, performance optimization, BeingxBot, website services India, Website Development in Lakhimpur, Website Development in Barabanki, Website Development in Sitapur, Website Development in Hardoi, Website Development in Unnao, Website Development in Kanpur, Website Development in Faizabad, Website Development in Gorakhpur",
     image: "/images/beingxbot-banner.png",
-    url: "https://beingxbot.tech",
+    url: "https://beingxbot.in",
   };
 
   const structuredData = {

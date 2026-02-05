@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: 'https://beingxbot.tech', 
+  siteUrl: 'https://beingxbot.in', 
   generateRobotsTxt: true, 
   sitemapSize: 5000,
   changefreq: 'daily',
